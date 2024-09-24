@@ -1,4 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
+class Program
+{
+    private static void Main()
+    {
+
 // Nome do restaurante
         Console.WriteLine("Bem-vindo ao Restaurante do Ricardo!\n");
 
@@ -6,7 +11,7 @@
         Dictionary<string, double> menu = new Dictionary<string, double>()
         {
             { "Salsicha", GerarPrecoAleatorio() },
-            { "Linguiça", GerarPrecoAleatorio() },
+            { "Linguica", GerarPrecoAleatorio() },
             { "Pepino", GerarPrecoAleatorio() },
             { "Banana", GerarPrecoAleatorio() },
             { "Ovo", GerarPrecoAleatorio() }
@@ -21,7 +26,7 @@
 
         // Lista para armazenar os itens escolhidos
         List<string> escolhidos = new List<string>();
-        string escolha;
+        string? escolha; // Permitir nulo
         double precoTotal = 0;
 
         // Solicitar ao menos uma escolha
@@ -30,18 +35,18 @@
             Console.Write("\nEscolha um item do cardápio (ou digite 'sair' para finalizar): ");
             escolha = Console.ReadLine();
 
-            if (menu.ContainsKey(escolha))
+            if (!string.IsNullOrEmpty(escolha) && menu.ContainsKey(escolha))
             {
                 escolhidos.Add(escolha);
                 precoTotal += menu[escolha];
                 Console.WriteLine($"{escolha} adicionado. Preço: R$ {menu[escolha]:F2}");
             }
-            else if (escolha.ToLower() != "sair")
+            else if (escolha?.ToLower() != "sair")
             {
                 Console.WriteLine("Item inválido. Tente novamente.");
             }
 
-        } while (escolha.ToLower() != "sair" || escolhidos.Count == 0);
+        } while (escolha?.ToLower() != "sair" || escolhidos.Count == 0);
 
         // Mostrar itens escolhidos e preço total
         if (escolhidos.Count > 0)
@@ -57,9 +62,15 @@
         {
             Console.WriteLine("Nenhum item foi escolhido.");
         }
-    }
+    
 
     // Função para gerar preços aleatórios entre 5 e 15 reais
     static double GerarPrecoAleatorio()
     {
-        return random.Next(5, 16); // Preços entre 5 e 15 reais
+        Random randNum = new Random();
+		int g = randNum.Next(5, 16);
+        return g; // Preços entre 5 e 15 reais
+
+    }
+    }
+}
