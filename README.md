@@ -66,3 +66,24 @@ Fazer uma aplicação do tipo console de um restaurante fictício onde o usuári
 - Fazer um recibo, contendo os valores acumulados em detalhe para o cliente.
 - Adicionar mais opções ao cliente.
 - Otimizar as linhas de códigos.
+
+## Jogo: Acerte o Número
+Aluna: Iolanda Carvalho
+
+### Intuito:
+Fazer uma aplicação do tipo console de um jogo onde o istema gera um número aleatório de 1 a 100 e o usuário precisa acertar qual é esse número apenas com dicas como "muito baixo" e "muito alto".
+
+### O que foi usado:
+- Variáveis
+- Estrutura de condição ``if``
+- Estrutura de decisão ``while``
+- Método ``Random.Next``
+
+### Como foi feito:
+1. Foi utilizado o ``Random.Next`` para o sistema gerar um número aleatório de 1 a 100.
+2. Após isso, eu usei o ``while`` para que enquanto o palpite do usuário for diferente do número gerado, o sistema continuará pedindo para que ele informe um novo palpite.
+3. Usei o ``if`` para que a cada palpite do usuário o sistema faça o seguinte teste: Se o número informado pelo usuário como palpite for menor que o número que o sistema gerou, aparecerá a menságem `Muito baixo! Tente novamente.` e solicitará que ele faça um novo palpite, se o número informado pelo usuário como palpite for maior que o número que o sistema gerou, aparecerá a menságem `Muito alto! Tente novamente.` e solicitará que ele faça um novo palpite. Agora, caso o número inserido como palpite seja igual ao número gerado pelo sistema, aparecerá a mensagem `PARABÉNS, VOCÊ ACERTOU!`, informará o número e a quantidade de tentativas do usuário.
+
+### Backlog:
+- Gerar mais de um número em um intervalo maior.
+- Melhorar a parte visual.
