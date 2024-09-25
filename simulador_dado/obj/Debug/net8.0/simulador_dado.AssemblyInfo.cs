@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("simulador_dado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a00933b3dd435257d9f2fe8f5662adb04b35d07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88b98bbd0fe1a50fc88679da2756236d9c522603")]
 [assembly: System.Reflection.AssemblyProductAttribute("simulador_dado")]
 [assembly: System.Reflection.AssemblyTitleAttribute("simulador_dado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

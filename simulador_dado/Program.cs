@@ -1,35 +1,44 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+﻿using System;
 
-Console.ForegroundColor = ConsoleColor.Black;
-Console.BackgroundColor = ConsoleColor.White;
-Console.WriteLine("=".PadLeft(21, '='));
-Console.WriteLine("- Simulador de Dado -");
-Console.WriteLine("=".PadLeft(21, '='));
-Console.ResetColor();
-return1:
-Console.Write("\n(Insira 'Pronto' para iniciar)");
-Console.Write("\nPronto para jogar o dado? ");
-string inicio = Console.ReadLine().ToLower();
-
-if (inicio == "pronto")
+class Program 
 {
-    Random randNum = new Random();
-	int nc = randNum.Next(1,6);
-    Console.Clear();
-    for (int cont = 0; cont <= 16; cont++)
+    static void Main(string[] args)
     {
-        Random randNumm = new Random();
-		int n = randNum.Next(1,6);
-        Console.WriteLine($"\nO dado está em: {n}\n");
-        Thread.Sleep(300);
-        Console.Clear();
-    }
-    Console.WriteLine($"\nO dado parou no número: {nc}\n");
+        string caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        //int tamanho = ContarCaracteres(caracteres); // Conta os caracteres manualmente
+        //Console.WriteLine($"Tamanho da string de caracteres: {tamanho}");
 
-}
-else
-{
-    Console.WriteLine("\nValor inválido, digite novamente.\n");
-    goto return1;
+        Console.WriteLine("Digite o tamanho da senha que deseja gerar:");
+        if (!int.TryParse(Console.ReadLine(), out int tamanhosenha))
+        {
+            Console.WriteLine("Insira um valor válido.");
+            return;
+        }
+
+        string senha = GerarSenha(tamanhosenha, caracteres,);
+        Console.WriteLine($"Senha gerada: {senha}");
+    }
+
+    //static int ContarCaracteres(string caracteres)
+    //{
+       // int contador = 0;
+       // foreach (char c in caracteres)
+        //{
+           // contador++; // Incrementa o contador para cada caractere
+//}
+//return contador;
+    //}
+
+    static string GerarSenha(int tamanho, string caracteres, int tamanhoCaracteres)
+    {
+        Random random = new Random();
+        string senha = "";
+        for (int i = 0; i < tamanho; i++)
+        {
+            int index = random.Next(tamanhoCaracteres.length); // Usa o tamanho contado manualmente
+            senha += caracteres[index];
+        }
+
+        return senha;
+    }
 }
