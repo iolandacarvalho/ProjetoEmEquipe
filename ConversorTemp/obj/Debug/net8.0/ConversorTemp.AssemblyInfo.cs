@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConversorTemp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9420614e12f0a90a1d9dcae0ad7e74980c099027")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dcb16bd4d3529fe9820502f0def4458e0a7c563")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConversorTemp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConversorTemp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
