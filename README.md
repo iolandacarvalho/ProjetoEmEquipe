@@ -129,3 +129,21 @@ ao método ``Thread.Sleep``.
 
 ### Backlog:
 - Melhorar a questão visual da aplicação.
+
+## Conversor de temperatura
+Aluna: Beatriz Serafim
+### Intuito:
+Fazer uma aplicação do tipo console que converta a temperatura.
+
+### O que foi usado:
+- Estrutura de condição ``if``
+
+### Como foi feito:
+1. E solicitado ao usuário quantos graus em celcius ele deseja converter.
+2. O programa, com base na inicial inserida, converte, em uma multiplicação e adição caso seja Fahrenheit, e adição caso seja Kelvin.
+3. Ao fim, o console entrega a conversão exata da temperatura a desejo do usuario.
+
+
+### Backlog:
+- Melhorar a questão visual da aplicação.
+- Adicionar a versão oposta, convertendo de Kelvin ou Fahrenheit para Celcius.
