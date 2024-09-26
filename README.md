@@ -87,3 +87,45 @@ Fazer uma aplicação do tipo console de um jogo onde o istema gera um número a
 ### Backlog:
 - Gerar mais de um número em um intervalo maior.
 - Melhorar a parte visual.
+
+## Gerador de senha
+Aluna: Théo Oliveira Quintão
+
+### Intuito:
+Fazer uma aplicação do tipo console que gere uma senha aleatória de acordo com o usuário.
+
+### O que foi usado:
+- Estrutura de repetição ``for``
+- Estrutura de condição ``if``
+- Método ``Random.Next``
+- Bibliotecas ``Collections.Generic`` e ``Threading``
+
+### Como foi feito:
+1. E solicitado ao usuário quantas letras, números e caracteres especiais ele deseja adicionar a senha.
+2. O programa gera uma senha de acordo com o desejo do usuário, porem a senha esta nesse formato ``letra - número - caracter``.
+3. O programa então embaralha essa senha, para que fique em um formato aleatório.
+4. A senha embaralhada e retornada para o usuário.
+
+### Backlog:
+- Melhorar a questão visual da aplicação.
+
+## Cronômetro
+Aluna: Théo Oliveira Quintão
+
+### Intuito:
+Fazer uma aplicação do tipo console que simule um cronômetro.
+
+### O que foi usado:
+- Estrutura de repetição ``for``
+- Estrutura de condição ``if``
+- Biblioteca ``Threading``
+
+### Como foi feito:
+1. E solicitado ao usuário quantos segundos ele deseja que o programa conte.
+2. O programa retorna um valor que começa do número que o usuário solicitou que vai decaindo a cada segundo, esse sistema foi possivel graças 
+ao método ``Thread.Sleep``.
+3. Ao fim da contagem o sistema anuncia o fim da contagem.
+
+
+### Backlog:
+- Melhorar a questão visual da aplicação.

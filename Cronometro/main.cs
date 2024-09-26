@@ -5,7 +5,7 @@ class Program
     public static void Main(string[] args)
     {
         return1:
-        Console.Write("Quantos segundos o cronometro deve contar? ");
+        Console.Write("Quantos segundos o cronômetro deve contar? ");
         if(int.TryParse(Console.ReadLine(), out int seconds))
         {
             Console.Clear();
