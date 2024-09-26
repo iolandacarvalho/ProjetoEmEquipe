@@ -76,7 +76,7 @@ Fazer uma aplicação do tipo console de um jogo onde o istema gera um número a
 ### O que foi usado:
 - Variáveis
 - Estrutura de condição ``if``
-- Estrutura de decisão ``while``
+- Estrutura de repetição ``while``
 - Método ``Random.Next``
 
 ### Como foi feito:
@@ -168,3 +168,21 @@ Fazer uma aplicação do tipo console que converta a temperatura.
 ### Backlog:
 - Melhorar a questão visual da aplicação.
 - Adicionar a versão oposta, convertendo de Kelvin ou Fahrenheit para Celcius.
+
+## Calculadora de IMC
+Aluno: Pedro Augusto
+
+### Intuito:
+Fazer uma aplicação do tipo console que calcule o IMC da pessoa e classifique ela a partir do resultado do IMC.
+
+### O que foi usado:
+- Variáves
+- Estrutura de condição ``if``
+
+### Como foi feito:
+1. Solicito que o usuário informe o seu peso e altura.
+2. Criei a variável ``imc`` com o seguinte cálculo ``imc = peso / (altura * altura)``
+3. Utilizei o ``if`` para classificar o usuário de acordo com seu peso.
+
+### Backlog:
+- Melhorar a questão visual da aplicação.
