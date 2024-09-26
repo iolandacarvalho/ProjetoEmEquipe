@@ -89,7 +89,7 @@ Fazer uma aplicação do tipo console de um jogo onde o istema gera um número a
 - Melhorar a parte visual.
 
 ## Gerador de senha
-Aluna: Théo Oliveira Quintão
+Aluno: Théo Oliveira Quintão
 
 ### Intuito:
 Fazer uma aplicação do tipo console que gere uma senha aleatória de acordo com o usuário.
@@ -110,7 +110,7 @@ Fazer uma aplicação do tipo console que gere uma senha aleatória de acordo co
 - Melhorar a questão visual da aplicação.
 
 ## Cronômetro
-Aluna: Théo Oliveira Quintão
+Aluno: Théo Oliveira Quintão
 
 ### Intuito:
 Fazer uma aplicação do tipo console que simule um cronômetro.
