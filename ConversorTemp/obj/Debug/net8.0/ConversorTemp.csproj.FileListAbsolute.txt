@@ -1,0 +1,15 @@
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\bin\Debug\net8.0\ConversorTemp.exe
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\bin\Debug\net8.0\ConversorTemp.deps.json
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\bin\Debug\net8.0\ConversorTemp.runtimeconfig.json
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\bin\Debug\net8.0\ConversorTemp.dll
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\bin\Debug\net8.0\ConversorTemp.pdb
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\obj\Debug\net8.0\ConversorTemp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\obj\Debug\net8.0\ConversorTemp.AssemblyInfoInputs.cache
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\obj\Debug\net8.0\ConversorTemp.AssemblyInfo.cs
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\obj\Debug\net8.0\ConversorTemp.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\obj\Debug\net8.0\ConversorTemp.sourcelink.json
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\obj\Debug\net8.0\ConversorTemp.dll
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\obj\Debug\net8.0\refint\ConversorTemp.dll
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\obj\Debug\net8.0\ConversorTemp.pdb
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\obj\Debug\net8.0\ConversorTemp.genruntimeconfig.cache
+C:\Users\Alunos\Documents\BEATRIZ SERAFIM\ProjetoEmEquipe\ConversorTemp\obj\Debug\net8.0\ref\ConversorTemp.dll
