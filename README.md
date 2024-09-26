@@ -122,6 +122,27 @@ Fazer uma aplicação do tipo console que simule um cronômetro.
 
 ### Como foi feito:
 1. E solicitado ao usuário quantos segundos ele deseja que o programa conte.
+2. O programa retorna um valor que começa do número que o usuário solicitou que vai Subindo a cada segundo, esse sistema foi possivel graças 
+ao método ``Thread.Sleep``.
+3. Ao fim da contagem o sistema anuncia o fim da contagem.
+
+
+### Backlog:
+- Melhorar a questão visual da aplicação.
+
+## Temporizador
+Aluno: Théo Oliveira Quintão
+
+### Intuito:
+Fazer uma aplicação do tipo console que simule um Temporizador.
+
+### O que foi usado:
+- Estrutura de repetição ``for``
+- Estrutura de condição ``if``
+- Biblioteca ``Threading`` 
+
+### Como foi feito:
+1. E solicitado ao usuário quantos segundos ele deseja que o programa conte.
 2. O programa retorna um valor que começa do número que o usuário solicitou que vai decaindo a cada segundo, esse sistema foi possivel graças 
 ao método ``Thread.Sleep``.
 3. Ao fim da contagem o sistema anuncia o fim da contagem.
